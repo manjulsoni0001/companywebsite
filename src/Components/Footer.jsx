@@ -104,10 +104,10 @@ const Footer = () => {
               <p className="text-lg text-slate-500 mt-4">
               At Manjul Soni & Co., we specialize in delivering expert solutions in auditing, taxation, finance, and compliance. Our dedicated team of professionals is committed to helping businesses and individuals achieve financial excellence.
               </p>
-              <button className="relative my-4 text-base font-['Open Sans'] rounded-full bg-color-1 px-8 py-3 text-white hover:shadow-lg hover:shadow-slate-200 transition-all ease-linear group overflow-hidden">
+              <Link to="/contact" className="relative my-4 text-base font-['Open Sans'] rounded-full bg-color-1 px-8 py-3 text-white hover:shadow-lg hover:shadow-slate-200 transition-all ease-linear group overflow-hidden">
                 Get A Quote
-                <span className="absolute block w-52 h-52 text-[#e60072] bg-[rgba(255,255,255,0.2)] rounded-full top-[-10%] -right-32 group-hover:top-[-20%] group-hover:-right-20 transition-all duration-500 ease-linear"></span>
-              </button>
+                {/* <span className="absolute block w-52 h-52 text-[#e60072] bg-[rgba(255,255,255,0.2)] rounded-full top-[-10%] -right-32 group-hover:top-[-20%] group-hover:-right-20 transition-all duration-500 ease-linear"></span> */}
+              </Link>
             </div>
             {/* Right Section */}
             <div className="w-full lg:w-1/6 sm:w-1/2 px-4">
