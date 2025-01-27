@@ -24,8 +24,8 @@ const Home = () => {
                 <div className="m-2">
                   <img src={Rocket} alt="" />
                 </div>
-                <div className="text-2xl lg:text-5xl font-montserrat font-bold tracking-tighter text-transparent bg-gradient-to-b from-gray-950 to-slate-800 bg-clip-text text-center lg:text-start pb-3 mx-12 md:mx-28 lg:mx-0 mb-7">Best Prediction for the Business Future</div>
-                <div className="text-color-1 font-normal md:text-2xl  text-sm mb-9 mx-8 lg:mx-0 text-center lg:text-start">We help businesses navigate and invest in the best opportunities through expert tax compliance and financial planning</div>
+                <div className="text-2xl lg:text-5xl font-montserrat font-bold bg-gradient-to-b from-gray-950 to-slate-800 text-center lg:text-start pb-3 mx-12 md:mx-28 lg:mx-0 mb-7">Best Prediction for the Business Future</div>
+                <div className="text-blue-400 font-normal md:text-2xl  text-sm mb-9 mx-8 lg:mx-0 text-center lg:text-start">We help businesses navigate and invest in the best opportunities through expert tax compliance and financial planning</div>
                 <div className="flex items-center justify-center lg:justify-start">
                   {/* <button className="flex relative text-lg font-normal rounded-full bg-color-1 px-8 py-3 text-slate-50 shadow-2xl hover:bg-color-2 transition-all ease-linear group overflow-hidden uppercase">
                     View Case Studies
